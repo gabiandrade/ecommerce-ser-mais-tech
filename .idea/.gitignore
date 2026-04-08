@@ -1,0 +1,32 @@
+# Arquivos compilados
+*.class
+
+# Pacotes gerados
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
