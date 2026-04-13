@@ -1,6 +1,6 @@
 package enums;
 
-public enum MenuInicial {
+public enum MenuEstoque {
 
     CADASTRAR_PRODUTO(1, "Cadastrar Produto"),
     LISTAR_PRODUTO(2, "Listar Produtos"),
@@ -10,7 +10,8 @@ public enum MenuInicial {
 
     private int opcaoId;
     private String descricao;
-    MenuInicial(int opcaoId, String descricao) {
+
+    MenuEstoque(int opcaoId, String descricao) {
         this.opcaoId = opcaoId;
         this.descricao = descricao;
     }

@@ -5,7 +5,7 @@ public class Produto {
     private String codigoBarras;
     private String nome;
 
-    Produto(String codigoBarras, String nome) {
+    public Produto(String codigoBarras, String nome) {
         this.codigoBarras = codigoBarras;
         this.nome = nome;
     }
